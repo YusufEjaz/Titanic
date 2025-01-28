@@ -169,8 +169,8 @@ plt.title("Boxplot of Age")
 plt.show()
 ```
 
-![](/Users/mansoor/Downloads/fare.png)
-![](/Users/mansoor/Downloads/age.png)
+![](https://github.com/YusufEjaz/Titanic/blob/main/Images/preboxplotage.png)
+![](https://github.com/YusufEjaz/Titanic/blob/main/Images/preboxplot.png)
 
 * The Interquartile Range (IQR) method was applied to cap outliers, ensuring extreme values did not skew the analysis.
 
@@ -197,8 +197,8 @@ sns.boxplot(x=df['Age'])
 plt.title("Boxplot of Age (After Capping Outliers)")
 plt.show()
 ```
-![](/Users/mansoor/Downloads/bpfare.png)
-![](/Users/mansoor/Downloads/bpage.png)
+![](https://github.com/YusufEjaz/Titanic/blob/main/Images/fare.png)
+![](https://github.com/YusufEjaz/Titanic/blob/main/Images/age.png)
 
 ### Step 4: Handle Categorical Encoding
 * Categorical columns were converted into numerical format:
@@ -243,7 +243,7 @@ sns.heatmap(df.corr(), annot=True, cmap='coolwarm', fmt='.2f')
 plt.title("Correlation Heatmap")
 plt.show()
 ```
-![](/Users/mansoor/Downloads/cor.png)
+![](https://github.com/YusufEjaz/Titanic/blob/main/Images/correlation.png)
 
 Key Observations:
 Strong Negative Correlation:
@@ -279,7 +279,7 @@ plt.xlabel("Survived (0 = No, 1 = Yes)")
 plt.ylabel("Count")
 plt.show()
 ```
-![](/Users/mansoor/Downloads/surco.png)
+![](https://github.com/YusufEjaz/Titanic/blob/main/Images/survival%20counts.png)
 
 
 3. Bar Plot of Survival by Pclass: Showed that passengers in first class were more likely to survive than those in second or third class.
@@ -295,7 +295,7 @@ plt.legend(['1st Class', '2nd Class', '3rd Class'])
 plt.show()
 ```
 
-![](/Users/mansoor/Downloads/pclasssex.png)
+![](https://github.com/YusufEjaz/Titanic/blob/main/Images/sur%20pclass.png)
 
 
 4. Age and Fare Distributions: Visualized the spread of ages and ticket fares across passengers.
@@ -316,8 +316,8 @@ plt.show()
 
 ```
 
-![](/Users/mansoor/Downloads/aged.png)
-![](/Users/mansoor/Downloads/fared.png)
+![](https://github.com/YusufEjaz/Titanic/blob/main/Images/age%20d.png)
+![](https://github.com/YusufEjaz/Titanic/blob/main/Images/fare%20d.png)
 
 
 ### Step 6: Build a Logistic Regression Model
